@@ -1,0 +1,16 @@
+
+
+
+
+<form [formGroup]="pruebaform" (ngSubmit)="onSubmit()">
+  <label>Nombre:</label>
+  <input type="text" formControlName="name">
+
+  <label>Apellido:</label>
+  <input type="text" formControlName="lastname">
+
+  <label>Ciudad:</label>
+  <input type="text" formControlName="city">
+
+  <button type="submit">Enviar</button>
+</form>
